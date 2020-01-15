@@ -1,0 +1,10 @@
+language: php
+services:
+- docker
+branches:
+  only:
+  - master
+script:
+- whoami
+- pwd
+- exit 1
